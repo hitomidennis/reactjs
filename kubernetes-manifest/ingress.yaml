@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: quizapp.seaoil.com.ph
+    - host: k8s-quiz-mainlb-2249bc743a-1399972881.us-west-2.elb.amazonaws.com
       http:
         paths:
           - path: /api/questions
