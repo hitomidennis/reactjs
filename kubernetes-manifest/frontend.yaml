@@ -22,10 +22,10 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: hitomidennis/frontend-js:latest
+        image: hitomidennis/frontend-js:1.0
         env:
         - name: VITE_REACT_APP_API_URL
-          value: "http://quizapp.seaoil.com.ph/api/questions"
+          value: "http://k8s-quiz-mainlb-2249bc743a-1399972881.us-west-2.elb.amazonaws.com/api/questions"
         ports:
         - containerPort: 8080
 ---
