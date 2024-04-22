@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: hitomidennis/frontend-js:latest
+        image: hitomidennis/frontend-js:1.0
         env:
         - name: VITE_REACT_APP_API_URL
           value: "http://quizapp.seaoil.com.ph/api/questions"
